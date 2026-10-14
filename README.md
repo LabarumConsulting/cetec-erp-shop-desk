@@ -10,7 +10,7 @@ Inquiries: hello@labarumconsulting.com
 
 ## What you get
 
-Twenty playbooks. A shop can also ask about any data their own Cetec MCP returns. If a tool cannot answer or cannot join two records, the skill stops. That is a pass.
+Twenty-one playbooks. A shop can also ask about any data their own Cetec MCP returns. If a tool cannot answer or cannot join two records, the skill stops. That is a pass.
 
 - **Floor brief.** Late work, shortages on those jobs, open NCRs, what can ship.
 - **Week commit.** Orders due in five days that are short or stuck.
@@ -32,10 +32,13 @@ Twenty playbooks. A shop can also ask about any data their own Cetec MCP returns
 - **Repeat NCR.** Parts with more than one open or recent NCR.
 - **Quotes ready.** Sitting quotes not blocked on material or capacity. Does not convert.
 - **Job packet.** One work order and the records around it.
+- **No writes.** Refuses create quote, create or update BOM, and every other Cetec write. An explicit yes does not change this.
 
 ## Read and write
 
-This pack refuses writes. Cetec's MCP still exposes write tools, including create quote, create BOM, and update BOM. A skill cannot turn those tools off. Do not say yes to a write. Writes have no undo.
+This pack is written to refuse writes. The skills instruct the bot not to call create quote, create or update BOM, or any other Cetec write tool, and an explicit yes does not override that.
+
+That is not an enforcement. Cetec's MCP still exposes write tools. A skill file cannot disable them, filter them out of the tool list, or stop a call if the bot ignores the instruction. Writes have no undo. Treat the no-write rule as guidance the bot is told to follow, not as a control the plugin can guarantee.
 
 Out of this pack: creating a quote or BOM, moving a work order, adjusting quantity on hand, receiving a PO, converting a quote, creating an invoice, holding an order. Those stay a person in Cetec.
 
