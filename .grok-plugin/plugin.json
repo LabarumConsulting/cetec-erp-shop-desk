@@ -1,0 +1,13 @@
+{
+  "name": "cetec-erp-shop-desk",
+  "displayName": "CETEC Shop Desk by Labarum Consulting",
+  "version": "0.4.0",
+  "description": "CETEC Shop Desk by Labarum Consulting. Read-only floor, buyer, capacity, customer, part, invoice, promise-date, stuck-job, and NCR playbooks against the shop's own Cetec MCP. Does not call Cetec write tools.",
+  "author": {
+    "name": "Labarum Consulting",
+    "url": "https://labarumconsulting.com"
+  },
+  "license": "MIT",
+  "keywords": ["cetec", "erp", "manufacturing", "shop-floor", "purchasing", "labarum"],
+  "skills": "./skills/"
+}
