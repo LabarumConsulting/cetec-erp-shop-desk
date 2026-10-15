@@ -10,5 +10,9 @@
   "license": "MIT",
   "keywords": ["cetec", "erp", "manufacturing", "shop-floor", "purchasing", "labarum"],
   "skills": "./skills/",
-  "icon": "./badge-circle-transparent-cetec-erp.png"
+  "icon": "./badge-circle-transparent-cetec-erp.png",
+  "homepage": "https://labarumconsulting.com",
+  "repository": "https://github.com/LabarumConsulting/cetec-erp-shop-desk",
+  "supportUrl": "https://labarumconsulting.com",
+  "documentationUrl": "https://github.com/LabarumConsulting/cetec-erp-shop-desk"
 }
