@@ -9,5 +9,6 @@
   },
   "license": "MIT",
   "keywords": ["cetec", "erp", "manufacturing", "shop-floor", "purchasing", "labarum"],
-  "skills": "./skills/"
+  "skills": "./skills/",
+  "icon": "./badge-circle-transparent-cetec-erp.png"
 }
